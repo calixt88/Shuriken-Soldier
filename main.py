@@ -35,7 +35,7 @@ def gameLoop():
                 run = False
         drawGameScreen()
 
-#Main function
+#Main function.
 def main(): 
     startScreen()
     gameLoop()
