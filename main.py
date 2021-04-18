@@ -2,9 +2,11 @@ import pygame
 import os
 import time
 
+
 from StartScreen import *
 from Constants import *
 from pygame import mixer
+
 
 
 #Window Initialize
@@ -38,7 +40,7 @@ def gameLoop():
 #Main function.
 def main(): 
     startScreen()
-    gameLoop()
+    #gameLoop()
     pygame.QUIT()
 
 
